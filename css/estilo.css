@@ -66,7 +66,8 @@ header .encabezado nav ul li a:hover{
 .bienvenidos .container .texto-bienvenido{
     position: relative;
     text-align: center;
-    padding-top: 25%;
+    padding: 25% 2em 0px 2em;
+    
 }
 
 .bienvenidos .container .texto-bienvenido h6{
@@ -182,6 +183,72 @@ footer span{
     color: #fff;
     
 }
+
+/*Inicio de media querys*/
+
+/*media queris de servicios*/
+
+@media(min-width:720px){
+    .servicios-creator{
+        overflow: hidden;
+    }
+}
+
+@media(min-width:720px){
+    .servicios-creator .servicios{
+        overflow: hidden;
+        margin-top: 3%;
+    }
+}
+
+@media(min-width:720px){
+    .servicios-creator .servicios article{
+        width: 33.3%;
+        float: left;
+        box-sizing: border-box;
+    }
+}
+
+@media(min-width:720px){
+    .servicios-creator .servicios h5{
+    font-size: 1.1em;
+    font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
