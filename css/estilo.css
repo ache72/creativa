@@ -97,7 +97,7 @@ header .encabezado nav ul li a:hover{
     text-align: center;
     background: #f05f40;
     color: #fff;
-    padding: 2em 0px;
+    padding: 2em 2em;
 }
 
 section .banner-quienes-somos{
@@ -124,7 +124,7 @@ section .banner-quienes-somos{
 
 .servicios-creator{
     text-align: center;
-    padding: 2em 0px;
+    padding: 2em 2em;
 }
 
 .servicios-creator h3{
