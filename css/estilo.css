@@ -93,9 +93,33 @@ header .encabezado nav ul li a:hover{
 
 /*diseño de quienes somos*/
 
+.quienes-somos{
+    text-align: center;
+    background: #f05f40;
+    color: #fff;
+}
 
+.quienes-somos .container{
+    padding: 2em 0px;
+}
+section .banner-quienes-somos{
+    width: 181px;
+}
 
+.quienes-somos h3{
+    font-size: 2.6em;
+    font-weight: 400;
+}
 
+.quienes-somos a{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: .8em;
+    padding: 1em;
+    background: #fff;
+    border-radius: .3em;
+}
 
 
 
