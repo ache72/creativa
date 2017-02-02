@@ -8,9 +8,17 @@ body{
 }
 
 /*Editando la cabecera*/
+.bienvenidos{
+    background: url("../images/banner.jpg");
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    height: 100vh;
+}
+
 header{
     width: 100%;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.3);
     overflow: hidden;
     position: absolute;
 }
@@ -24,23 +32,19 @@ header .encabezado{
 
 header .encabezado h3{
     font-size: 1.4em;
-    line-height: 90px;
+    line-height: 75px;
     float: left;
 }
 
 header .encabezado nav{
     float: right;
-    line-height: 90px;
+    line-height: 75px;
     display: inline-block;
 }
 
-header .encabezado nav ul{
-    
-}
 
 header .encabezado nav ul li{
     display: inline-block;
-    padding: 0px .8em 0px 0px;
 }
 header .encabezado nav ul li a{
     color: #fff;
@@ -59,8 +63,35 @@ header .encabezado nav ul li a:hover{
 }
 
 
-/*Editando la entrada*/
+.bienvenidos .container .texto-bienvenido{
+    position: relative;
+    text-align: center;
+    padding-top: 25%;
+}
 
+.bienvenidos .container .texto-bienvenido h6{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.bienvenidos .container .texto-bienvenido h1{
+    color: #fff;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.bienvenidos .container .texto-bienvenido a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: .5em;
+    padding: 1em;
+    background: #f05f40;
+    border-radius: .3em;
+}
+
+/*diseño de quienes somos*/
 
 
 
