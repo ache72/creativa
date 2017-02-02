@@ -97,11 +97,9 @@ header .encabezado nav ul li a:hover{
     text-align: center;
     background: #f05f40;
     color: #fff;
-}
-
-.quienes-somos .container{
     padding: 2em 0px;
 }
+
 section .banner-quienes-somos{
     width: 181px;
 }
@@ -120,6 +118,35 @@ section .banner-quienes-somos{
     background: #fff;
     border-radius: .3em;
 }
+
+/*Diseño de bloque de servicios*/
+
+
+.servicios-creator{
+    text-align: center;
+    padding: 2em 0px;
+}
+
+.servicios-creator h3{
+    font-size: 2.6em;
+    font-weight: 400;
+}
+.servicios-creator .servicios article{
+    padding: 1em;
+}
+
+.servicios-creator .servicios span{
+    font-size: 6em;
+    color: #f05f40;
+}
+
+.servicios-creator .servicios h5{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/*Diseño de Bloque portafolio*/
+
 
 
 
