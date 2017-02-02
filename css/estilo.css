@@ -172,7 +172,16 @@ section .banner-quienes-somos{
 
 /*Diseñando el bloque del footer*/
 
+footer{
+    background: #222222;
+    padding: 2em 0px;
+    text-align: center;
+}
 
+footer span{
+    color: #fff;
+    
+}
 
 
 
