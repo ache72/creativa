@@ -147,6 +147,31 @@ section .banner-quienes-somos{
 
 /*Diseño de Bloque portafolio*/
 
+.portafolio{
+    text-align: center;
+    padding: 2em 0px;
+    background-color: #424141;
+}
+
+.portafolio h3{
+    font-size: 2.6em;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.portafolio .portafolios{
+    padding: 0px 2em;
+    
+}
+
+.portafolio .portafolios img{
+    width: 100%;
+    margin-top: 2em;
+}
+
+/*Diseñando el bloque del footer*/
+
 
 
 
